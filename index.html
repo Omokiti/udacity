@@ -13,26 +13,69 @@
     <div class="container-fluid">
         <div class="row">
         <div class="col-md-12">
-           
-      <nav>
+                <nav class="navbar fixed-top navbar-expand-lg">
+                        <a class="navbar-brand" href="#">
+                        <img src="images/udacity.png"width="200px"alt="udacity" id="logo">
+                        
+                              </a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent navright ">
+                      <ul class="navbar-nav mr-auto">
+                        
+                        <li class="nav-item dropdown  ">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Program
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">PROGRAMMING AND DEVELOPMENT</a>
+                            <a class="dropdown-item" href="#">ARTIFICIAL INTELLIGENCE</a>
+                            <a  class="dropdown-item" href="#" > CLOUD COMPUTING</a>
+                            <a  class="dropdown-item" href="#" >DATA SCIENCE </a>
+                            <a  class="dropdown-item" href="#" > BUSINESS</a>
+                            <a  class="dropdown-item" href="#" >AUTONOMOUS SYSTEMS </a>
+                            <a  class="dropdown-item" href="#" >CAREER </a>
+                            <div class="dropdown-divider"></div>
+                                 
+                            <button id="btn-drop-down" type="button">FULL CATALOG</button>
+                           
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Career
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">CAREER PREP</a>
+                                <a class="dropdown-item" href="#">GET HIRED</a>
+                                <a class="dropdown-item" href="#">HIRE OUR GRADS</a>
+                                <a class="dropdown-item" href="#">STUDENT SUCCESS</a>
+                                <a class="dropdown-item" href="#">BECOME A MENTOR</a>
+                                <div class="dropdown-divider"></div>
+                                
+                              </div>
+                            </li>
+                        
+                        <li class="nav-item ">
+                              <a  class="nav-link" href="#">For Enterprise  </span></a>
+                            </li>
+                            <li class="nav-item ">
+                                 <a  class="nav-link" href="#"> | </span></a>
+                               </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Sign In</a>
+                            </li>
+                            <button id="nav-button">Get Started</button>
+                           </ul>
+                       </nav>   
       
-      <ul>
-       <img src="images/udacity.png"width="200px"alt="udacity" id="logo">
-       <div id="navright">
-          <li>Programs </li>
-          <li>Career </li>
-          <li>For Enterprise |</li>
-          <li>Sign In</li>
-          <button id="nav-button">Get Started</button>
-      </div>
-  
-      </ul>
-  
-      </nav>
      </div>
      </div>
   
-     <div class="row">
+     <div class="row space-2">
      <div class="col-md-12 bg-img">
         <div class="card">
          <h2>Be in demand</h2>
@@ -353,15 +396,15 @@
               
            <div class=" col-md-4 container-numb-details">
                  
-              <p id="numb">
-              <img src="images/degree-hat.svg" alt="degree-hat" id="degree-hat"> <br/>
+              <p id="numb-1">
+              <img src="images/degree-hat.svg" alt="degree-hat"> <br/>
                80,000+, <br/>
                Udacity graduates and counting
             </p>
            </div>
            <div class=" col-md-4 container-numb-details"  >
                  <p id="numb">
-                       <img src="images/star_copy.svg" alt="star" id="degree-hat"> <br/>
+                       <img src="images/star_copy.svg" alt="star"> <br/>
                         200+, <br/>
                         Industry experts partnering<br/>
                          to build our content
@@ -369,7 +412,7 @@
            </div>
            <div class=" col-md-4 container-numb-details" >
                  <p id="numb">
-                       <img src="images/star_copy_2.svg" alt="star-copy" id="degree-hat"> <br/>
+                       <img src="images/star_copy_2.svg" alt="star-copy"> <br/>
                         100+, <br/>
                         Enterprise customers <br/>
                          world-wide
@@ -382,11 +425,11 @@
            <p id="big-card-contents">Mike <br/>
            "Ultimately, Udacity is what really became the driving force behind the career change.”
            </p>
-         <div class="card-company-info">
+         
             <p id="card-company-details">NOW AT<br/>
              Audible
            </p>
-         </div>
+         
         
         </div>
          
@@ -399,11 +442,11 @@
       minimum wage jobs. Now, I have a new<br/>
       job, a new mindset, and new life!"
         </p>
-        <div class="card-company-info">
+    
               <p id="card-company-details">NOW AT<br/>
                US Department of Labour
              </p>
-           </div>
+           
            </div>
            <div class="big-card_1">
                  <img src="images/isuare.jpg" width="54px" height="54px"class="big-card-image" alt="isuare">
@@ -419,7 +462,7 @@
                           end developer."
                    </span>
                       
-                       <p id="card-company-details">NOW AT<br/>
+                       <p id="card-company-details_1">NOW AT<br/>
                         Keeword
                       </p>
                     
@@ -578,7 +621,7 @@
         </div>
               
        <footer>
-          <hr/>
+          
           <p id="footer-contents">© 2011–2019 Udacity, Inc.
   
               Legal & PrivacyRegulatory InformationSite Map
@@ -605,7 +648,19 @@
      
         </div>
   
+     <script>
+    
+    
+    let name="Ema";
+ console.log((`hello${1}`));
+ console.log((`hello ${"name"}`));
+    console.log((`hello ${name}`));
      
+    let apples="2";
+    let oranges ="3";
+
+
+     </script>
    
   
   
