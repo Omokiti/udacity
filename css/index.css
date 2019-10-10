@@ -3,7 +3,7 @@ background-color:#FFFFFF;
 
 }
 ul{
-padding: 20px;
+padding:1.25rem;
 margin:5px 15px 5px 300px;
     }
 .dropdown-menu{
@@ -47,17 +47,19 @@ background-image:url("../images/hero.jpg");
 background-repeat:no-repeat;
 background-position:center; 
 background-size:cover;
-min-height:500px;
+min-height:31.25rem;
 position: relative; 
 }
 .card{
-max-width:500px;
-height:500px;
+max-width:31.25rem;
+height:31.25rem;
 background-color:#1D7CF8;
 position:absolute; 
 top:25px;
-left:130px;
-right:130px;   
+left:8.125rem;
+right:8.125rem; 
+box-sizing:border-box;  
+overflow:hidden; 
 }
 
 input{
@@ -137,7 +139,7 @@ display:inline-block;
 font-weight:600;
 color:white;
 border-radius:0.25rem;
-width:50px;
+width:3.125rem;
 margin-left:15px;
 margin-bottom:0.5rem;
 padding:0.5px;
@@ -145,8 +147,8 @@ letter-spacing: 1.2px;
 
 }
 .info{
-width:130px;
-height:40px;
+width:8.125rem;
+height:2.5rem;
 float:right;
 margin-right:90px;
 margin-bottom:0.5rem;
@@ -177,7 +179,7 @@ border-radius:5px;
 h4{
 text-align:center;
 color:#2E3D49;
-font-size:32px;
+font-size:2rem;
 font-family:'Open Sans', sans-serif;
 }
 #small-card-content{
@@ -192,7 +194,7 @@ position: relative;
 margin: 0 auto;
 }
 #small-card-content-one{
-font-size:20px;
+font-size:1.25rem;
 text-align:center;
 color:#2E3D49;
 margin-bottom: 5px;
@@ -201,7 +203,7 @@ margin-bottom: 5px;
 h3{
 color:#2E3D49;
 text-align:center;
-font-size:32px;
+font-size:2rem;
 font-family:'Open Sans', sans-serif;
 padding: 0px 0px 24px;
 }
@@ -231,7 +233,7 @@ flex:1;
  background-color:#1D7CF8; 
  color:#FFFFFF;
  width:100%;
- height:320px; 
+ height:20rem; 
  margin-top:90px;
  padding:72px 0px;
  text-align:center;  
@@ -257,8 +259,8 @@ position: relative;
 }
 .circle{
 border-radius:50%;
-width: 62px;
-height:62px;
+width:3.875rem ;
+height:3.875rem;
 background-color:#FFFFFF;  
 box-shadow: 10px 10px 25px 0 rgba(0,0,0,.1);
 display: flex;
@@ -271,7 +273,7 @@ top:0
 }
 #underline{
 font-weight:bold;
-font-size:18px; 
+font-size:1.125rem;
 color:#000000;
 border-bottom:4px solid #FFA234;  
 
@@ -283,18 +285,20 @@ margin-left:25px;
 #program-content{
 color:#000000;
 font-weight:bold; 
-font-size:18px;    
+font-size:1.125rem;
+   
 }
 #program-contents{
 color:#000000;
 margin-left:8px; 
 color:#525C65; 
-font-size:14px;  
+font-size:0.875rem;  
+
 }
 
 #program-info{
-width:240px;
-height:80px; 
+ width:15rem;
+height:5rem; 
 padding:5px;
 margin:0 auto; 
 background-color:#FFFFFF;
@@ -310,13 +314,13 @@ width:100%;
 
 #nano_degree_contents{
 color: #000000;
-font-size:24px; 
+font-size:1.5rem; 
 margin-left: 50px;
 }
 .nano_degree_card{
-background-color:#FFFFFF;;
-width:250px;
-height:250px;
+background-color:#FFFFFF;
+width:15.625rem;
+height:15.625rem;
 margin-left: 80px;
 box-shadow: 0 0 8px 0 rgba(17,22,26,.16), 0 4px 8px 0 rgba(17,22,26,.08), 0 8px 16px 0 rgba(17,22,26,.08);
 position: relative;
@@ -327,7 +331,7 @@ top:8px;
 }
 #nano-contents{
 color:#525C65;
-font-size:18px;
+font-size:1.125rem;
 margin-left:10px;
 }
 #nano_card_content{
@@ -340,12 +344,13 @@ margin-left:10px;
 #nano_degree_info{
 color: #000000;
 margin-left:50px;
-font-size:14px;
+font-size:0.875rem;
+
 }  
 #nano_card_details{
 background-color:#FFA234;
 color:#FFFFFF;
-width:90px;
+width:5.625rem;
 border-radius:5px;
 top:3px;
 left:5px;
@@ -368,7 +373,7 @@ color: #000000;
 #numb-details{
 color: #2E3D49;
 margin:0 auto;
-font-size:24px;
+font-size:1.5rem;
 font-family: 'Open Sans', sans-serif;
  }
 #numb{
@@ -394,16 +399,16 @@ justify-content:space-evenly;
 
 }
 .big-card{
-width:320px;
-height:380px;
+width:20rem;
+height:23.75rem;
 margin-top:20px;
 background-image:linear-gradient(#FFFFFF,#F7F7F8);
 border-top: 2px solid#2BE3E4;
 border-radius:15px;
 }
 .big-card_1{
- width:320px;
- height:380px;
+width:20rem;
+height:23.75rem;
  margin-top:10px;
 background-image:linear-gradient(#FFFFFF,#F7F7F8);
 border-top: 2px solid#A951ED;
@@ -425,7 +430,7 @@ text-align:center;
 color:#2E3D49; 
 text-align:center;
 margin-top:20px;
-font-size:14px;
+font-size:0.875rem;
 background-color:#F7F7F8;
 font-family: 'Open Sans', sans-serif;
             
@@ -435,7 +440,7 @@ background-color:#F7F7F8;
 color:#2E3D49; 
 margin-top:130px;
 text-align:center;
-font-size:14px;
+font-size:0.875rem;
 font-family: 'Open Sans', sans-serif;
 }
 .bg-img-foot{
@@ -444,17 +449,18 @@ background-repeat:no-repeat;
 background-position:center; 
 background-size:cover;
 width:100%;
-min-height:500px;
+min-height:31.25rem;
 }  
 #foot-details{
 margin-top:120px;
-font-size:24px;
+font-size:1.5rem;
+
 }
 .explore-btn{
 background-color:#02B3E4;
 color:#FFFFFF;
-width:250px;
-height:50px;
+width:15.625rem;
+height:3.125rem;
 margin:125px 20px;
 border-radius:5px;
 padding:10px;
@@ -464,8 +470,8 @@ font-family:'Open Sans', sans-serif;
 .explore-btn-skill{
 background-color:#FFFFFF;
 color:#02B3E4;
-width:250px;
-height:50px;
+width:15.625rem;
+height:3.125rem;
 margin-top:125px 15px;
 padding:10px;
 border-radius:5px;
@@ -484,7 +490,7 @@ background-color:#F2F8FA;
 #footer{
 color: #000000;
 margin-top:90px;
-font-size:14px;
+font-size:0.875rem;
 font-family: 'Open Sans', sans-serif;
 }
 #udacity-logo{
@@ -496,12 +502,12 @@ color:#889FAF;
 }
 footer{
 background-color:#F2F8FA;
-height:300px;
+height:37.5rem;
 width:100%;
 }
 #footer-contents{
 color:#000000;
-font-size:14px;
+font-size:0.875rem;
 font-family: 'Open Sans', sans-serif;
 }
 #footer-contents-1{
